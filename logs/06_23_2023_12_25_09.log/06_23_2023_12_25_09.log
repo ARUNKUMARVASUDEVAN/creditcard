@@ -1,0 +1,22 @@
+[2023-06-23 12:25:10,875]21 root - INFO -Data Ingestion method Starts
+[2023-06-23 12:25:13,500]27 root - INFO -Dataset read as pandas DataFrame
+[2023-06-23 12:25:13,695]31 root - INFO -Train test split
+[2023-06-23 12:25:13,950]37 root - INFO -Ingestion of data is completed
+[2023-06-23 12:25:14,042]55 root - INFO -Read train and test data is completed 
+[2023-06-23 12:25:14,048]56 root - INFO -Train DataFrame Head :
+      ID  LIMIT_BAL  SEX  EDUCATION  MARRIAGE  AGE  PAY_0  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  default payment next month
+0  26995     400000    1          1         1   34     -1     -1     -2     -1     -1     -1      43711      37077      70369      15283      17668       4841     37954     71577     15973     18285      4875       647                           0
+1  24668     200000    1          1         1   41     -2     -2     -2     -2     -2     -2      10799       1208       1585       1470       1273       1000      1213      1585      1470      1273      1000      1555                           0
+2  24625      30000    1          1         2   31     -1     -1      0      0     -1     -1       6456       4390       3016       4504       5755       3560      4398      3000      3009      5767      3566     26444                           1
+3  25081      30000    1          1         1   52      0      0      0      0      0     -2      14476      15297       8531       8020       -620       -620      1129      1152      1081         0         0         0                           1
+4  16453      80000    2          3         1   55      0      0      0      0      0      0      46777      44628      43943      42913      43217      41662      5024      5014      5016      5017      5011      5014                           0
+[2023-06-23 12:25:14,088]57 root - INFO -Test DataFrame Head :
+      ID  LIMIT_BAL  SEX  EDUCATION  MARRIAGE  AGE  PAY_0  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  default payment next month
+0  29140     110000    2          3         2   51      0      0      0      0      0      0     111255     110615     112071      89274      91413      95541      4112      4519      4000      4000      6000      4000                           0
+1  15692      10000    1          1         2   26      0      0      0      0      0      0       6376       7386       8581       9765      10066      10151      1121      1316      1500       450       500       800                           1
+2  28822     320000    2          2         1   39      0      0      0     -2     -1     -1      46383     111937          0          0        589      -4543     68800         0         0       589         0         0                           0
+3   6725     230000    2          3         1   31      0      0      0      0      0      0     184444     182933     178409     175091     171800     168476      7016      5500      5125      5031      4969      5071                           0
+4  14446      60000    2          2         2   24      1      2      0      0      0      0      60425      57786      55272      55925      57063      48228        28      2500      2000      2030      2100      3500                           1
+[2023-06-23 12:25:14,088]59 root - INFO -Obtaining Preprocessing object 
+[2023-06-23 12:25:14,088]26 root - INFO -Data Tranformation is initiated
+[2023-06-23 12:25:14,088]31 root - INFO -Pipeline Initiated
